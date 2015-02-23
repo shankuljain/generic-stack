@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		430116841A94BCAB00DB694B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 430116831A94BCAB00DB694B /* main.c */; };
+		430116841A94BCAB00DB694B /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 430116831A94BCAB00DB694B /* client.c */; };
+		4301168C1A94BCC000DB694B /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4301168A1A94BCC000DB694B /* stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		430116801A94BCAB00DB694B /* generic stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "generic stack"; sourceTree = BUILT_PRODUCTS_DIR; };
-		430116831A94BCAB00DB694B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		430116831A94BCAB00DB694B /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		4301168A1A94BCC000DB694B /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		4301168B1A94BCC000DB694B /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		430116821A94BCAB00DB694B /* generic stack */ = {
 			isa = PBXGroup;
 			children = (
-				430116831A94BCAB00DB694B /* main.c */,
+				430116831A94BCAB00DB694B /* client.c */,
+				4301168A1A94BCC000DB694B /* stack.c */,
+				4301168B1A94BCC000DB694B /* stack.h */,
 			);
 			path = "generic stack";
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430116841A94BCAB00DB694B /* main.c in Sources */,
+				4301168C1A94BCC000DB694B /* stack.c in Sources */,
+				430116841A94BCAB00DB694B /* client.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +238,7 @@
 				430116891A94BCAB00DB694B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
